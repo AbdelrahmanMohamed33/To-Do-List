@@ -1,0 +1,57 @@
+body {
+  background-color:rgb(189, 184, 184);
+}
+.app{
+  border:1px solid #fff ;
+  margin: 100px 30px ;
+  border-radius: 25px;
+  padding : 25px ;
+  text-align: center;
+}
+.app h2{
+   color: #fff;
+   
+} 
+.app ul{
+  list-style: "⏳";
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px;
+}
+.app ul li{
+  /* word-wrap: break-word; */
+  overflow-wrap: break-word;
+}
+.app input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.app button {
+  display: block;
+  background-color: black;
+  color: #fff;
+  height: 42px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: 0;
+  margin: auto;
+
+}
+.diffStyle{
+  list-style: "✅";
+  text-decoration: line-through;
+
+}
+.divv{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+
+
